@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="general_outter_margin">48dp</dimen>
+    <dimen name="general_outter_margin_btm">24dp</dimen>
+    <dimen name="general_outter_margin_top">24dp</dimen>
+
+    <dimen name="general_outter_padtop">24dp</dimen>
+    <dimen name="general_outter_padbtm">24dp</dimen>
+    <dimen name="general_outter_padleft">24dp</dimen>
+    <dimen name="general_outter_padright">24dp</dimen>
+
+    <dimen name="register_edittext_padleft">60dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="RegisterEditText">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:background">@drawable/edit_text_rounded</item>
+                <item name="android:textColorHint">@color/black_overlay</item>
+                <item name="android:paddingTop">@dimen/generalEditTextPadding</item>
+                <item name="android:paddingBottom">@dimen/generalEditTextPadding</item>
+                <item name="android:paddingLeft">@dimen/generalEditTextPadding</item>
+                <item name="android:paddingRight">@dimen/generalEditTextPadding</item>
+                <item name="android:layout_marginTop">@dimen/general_outter_margin_top</item>
+                <item name="android:textColor">@color/colorWhite</item>
+                <item name="android:textAlignment">center</item>
+        </style>
+
+
+</resources>

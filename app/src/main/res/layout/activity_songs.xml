@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="me.fmy.galaxy_a7.SongsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/general_outter_padbtm"
+        android:layout_marginTop="@dimen/general_outter_margin"
+        android:layout_marginBottom="@dimen/general_outter_margin"
+        android:paddingLeft="@dimen/general_outter_padleft"
+        android:paddingRight="@dimen/general_outter_padright">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/song_activity_title"
+            android:id="@+id/textView"
+            android:textColor="@color/colorTextLight"
+            android:textSize="@dimen/generalFontSizeH3"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/song_a_title"
+            android:id="@+id/btn_song_a"
+            style="@style/SongsButton"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/song_b_title"
+            android:id="@+id/btn_song_b"
+            style="@style/SongsButton"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/song_c_title"
+            android:id="@+id/btn_song_c"
+            style="@style/SongsButton"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/song_d_title"
+            android:id="@+id/btn_song_d"
+            style="@style/SongsButton"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/song_e_title"
+            android:id="@+id/btn_song_e"
+            style="@style/SongsButton"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>

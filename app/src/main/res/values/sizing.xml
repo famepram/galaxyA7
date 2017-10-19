@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="generalFontSizeH1">36sp</dimen>
+    <dimen name="generalFontSizeH2">32sp</dimen>
+    <dimen name="generalFontSizeH3">28sp</dimen>
+    <dimen name="generalFontSizeH4">24sp</dimen>
+    <dimen name="generalFontSizeH5">20sp</dimen>
+    <dimen name="generalFontSizeH6">16sp</dimen>
+
+    <dimen name="generalEditTextPadding">10dp</dimen>
+</resources>

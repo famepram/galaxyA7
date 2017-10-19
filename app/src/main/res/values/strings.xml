@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">GalaxyA7</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="splash_text">Intro...</string>
+
+    <string name="register_title">Register</string>
+    <string name="register_hint_name">Name</string>
+    <string name="register_hint_email">Email Address</string>
+    <string name="register_hint_instagram">Instagram Account</string>
+    <string name="register_button_text">Submit</string>
+
+    <string name="register_invalid_name">Your name not valid</string>
+    <string name="register_invalid_email">Your email not valid</string>
+    <string name="register_invalid_ig">Your instagram account not valid</string>
+
+    <string name="song_activity_title">CHOOSE TRACKLIST</string>
+    <string name="song_a_title">FIN</string>
+    <string name="song_b_title">A</string>
+    <string name="song_c_title">Tanda Tanya</string>
+    <string name="song_d_title">Embrace</string>
+    <string name="song_e_title">Night Love</string>
+
+    <string name="artist_a">ARRIO</string>
+    <string name="artist_b">CNTROL</string>
+    <string name="artist_c">Kelompok Penerbang Roket</string>
+    <string name="artist_d">Kimokal</string>
+    <string name="artist_e">Artificial</string>
+
+    <string name="video_rec_please_wait">Please Wait...</string>
+
+    <string name="video_save">Save Video</string>
+    <string name="video_retake">Retake Video</string>
+
+    <string name="tnc_head">Syarat dan Ketentuan Kuis</string>
+    <string name="tnc_event_title">Samsung #GalaxyA2016 \n We The Fest</string>
+</resources>

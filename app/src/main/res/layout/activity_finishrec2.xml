@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg"
+    tools:context="me.fmy.galaxy_a7.FinishrecActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@mipmap/bg_header_songlist"
+        android:id="@+id/preview_head">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="PREVIEW VIDEO"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/textView2"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preview_head"
+        android:padding="20dp"
+        android:paddingTop="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LLPlayerPreview"
+            android:weightSum="10"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorWhite">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginTop="0dp">
+                <VideoView
+                    android:id="@+id/videoview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/imageView2" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@mipmap/galaxy_exp_6"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:visibility="invisible"
+                    android:layout_alignParentStart="true" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:id="@+id/btn_preview_vid"
+                    android:src="@mipmap/btn_preview_play_lg"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.2"
+                android:layout_marginTop="12dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/icn_preview_track"
+                    android:layout_weight="65"
+                    android:id="@+id/imageButton2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:id="@+id/txt_artist" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Take control without controlling"
+                        android:textSize="16sp"
+                        android:layout_below="@id/txt_artist"
+                        android:id="@+id/txt_songtitle" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/LLPlayerPreview"
+            android:layout_marginTop="32dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_tosca_rounded"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorEditTextLight"
+                android:text="Save Video"
+                android:id="@+id/btn_save_video"
+                android:layout_alignParentBottom="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_rounded"
+                android:layout_marginTop="@dimen/general_outter_margin_top"
+                android:textColor="@color/colorEditTextLight"
+                android:text="Retake Video"
+                android:id="@+id/btn_retake_video"
+                android:layout_alignParentBottom="true" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
